@@ -14,7 +14,7 @@ use App\Http\Controllers\backend\AdminFaqsController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index']);
-Route::post('/home', [HomeController::class, 'submitMessage'])->name('submitMessage');
+Route::post('/home', [HomeController::class, 'submitMessage1'])->name('submitMessage1');
 Route::get('/about', [AboutController::class, 'index']);
 Route::get('/blog', [BlogController::class, 'index']);
 Route::get('/contact-us', [ContactController::class, 'index']);

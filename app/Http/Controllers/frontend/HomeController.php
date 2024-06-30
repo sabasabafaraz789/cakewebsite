@@ -23,7 +23,7 @@ class HomeController extends Controller
     /**
      * Handle the form submission.
      */
-    public function submitMessage(Request $request)
+    public function submitMessage1(Request $request)
     {
         $request->validate([
             'name' => 'required',
